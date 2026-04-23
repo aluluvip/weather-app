@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>晴窗天气</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <div class="aurora aurora-left"></div>
+        <div class="aurora aurora-right"></div>
+
+        <main class="app">
+            <section class="hero-card">
+                <div class="hero-copy">
+                    <span class="eyebrow">QINGCHUANG WEATHER</span>
+                    <h1>抬头看天色，也能顺手看天气</h1>
+                    <p class="hero-desc">基于 Python 后端天气服务，支持自动定位、城市搜索和手动选择。</p>
+                    <div class="hero-actions">
+                        <button id="locateBtn" class="primary-btn" type="button">定位当前城市</button>
+                        <button id="refreshBtn" class="ghost-btn" type="button">刷新天气</button>
+                    </div>
+                    <p id="heroStatus" class="hero-status">准备就绪，正在等待你的选择。</p>
+                </div>
+
+                <div class="hero-weather" id="heroWeather">
+                    <div class="weather-badge" id="weatherBadge">实时</div>
+                    <div class="weather-place">
+                        <h2 id="cityName">晴窗天气</h2>
+                        <p id="locationMeta">可以自动定位，也可以手动查询。</p>
+                    </div>
+                    <div class="weather-temp-line">
+                        <span id="temperature">--</span>
+                        <span class="temp-unit">°C</span>
+                    </div>
+                    <div id="weatherText" class="weather-text">等待查询</div>
+                    <div class="weather-grid">
+                        <div class="metric">
+                            <span class="metric-label">湿度</span>
+                            <strong id="humidity">--</strong>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">风向</span>
+                            <strong id="windDirection">--</strong>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">风力</span>
+                            <strong id="windPower">--</strong>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">更新时间</span>
+                            <strong id="reportTime">--</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="panel-grid">
+                <section class="glass-card search-card">
+                    <div class="card-heading">
+                        <h3>搜索城市</h3>
+                        <p>输入城市、区县名称，快速查看实时天气。</p>
+                    </div>
+                    <div class="search-bar">
+                        <input id="searchInput" type="text" placeholder="例如：杭州、西湖区、Chaoyang" autocomplete="off">
+                        <button id="searchBtn" type="button">搜索</button>
+                    </div>
+                    <div id="searchResults" class="results-list hidden"></div>
+                </section>
+
+                <section class="glass-card select-card">
+                    <div class="card-heading">
+                        <h3>手动选择地区</h3>
+                        <p>从省、市、区县逐级选择，适合精确查询。</p>
+                    </div>
+                    <div class="selectors">
+                        <select id="provinceSelect">
+                            <option value="">选择省份</option>
+                        </select>
+                        <select id="citySelect" disabled>
+                            <option value="">选择城市</option>
+                        </select>
+                        <select id="districtSelect" disabled>
+                            <option value="">选择区县</option>
+                        </select>
+                    </div>
+                    <button id="queryBtn" class="primary-btn wide-btn" type="button" disabled>查询天气</button>
+                </section>
+            </section>
+
+            <section class="glass-card featured-card">
+                <div class="card-heading">
+                    <h3>热门城市</h3>
+                    <p>一键切换，适合快速查看常见城市天气。</p>
+                </div>
+                <div id="featuredCities" class="chip-list"></div>
+            </section>
+
+            <div id="errorMsg" class="toast hidden"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
