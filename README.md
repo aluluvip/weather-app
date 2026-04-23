@@ -18,7 +18,7 @@
 
 ## 亮点预览
 
-![功能亮点](./assets/readme/features-overview.svg)
+![功能亮点](./assets/readme/features-overview.png)
 
 ## 工作流程
 
