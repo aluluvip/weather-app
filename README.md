@@ -8,6 +8,16 @@
 - 后端代理天气请求，前端不直接暴露 API Key
 - 当高德接口在当前网络环境不可用时，自动回退到备用天气服务
 
+![应用预览](./assets/readme/hero-preview.svg)
+
+## 亮点预览
+
+![功能亮点](./assets/readme/features-overview.svg)
+
+## 工作流程
+
+![架构流程](./assets/readme/weather-flow.svg)
+
 ## 项目结构
 
 - `app.py`：本地 Python 后端，负责静态资源、天气接口代理、定位反查和搜索接口

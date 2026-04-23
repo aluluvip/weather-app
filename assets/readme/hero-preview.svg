@@ -1,0 +1,36 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#EAF5F5"/>
+  <circle cx="122" cy="118" r="120" fill="#D4EFE8"/>
+  <circle cx="1066" cy="560" r="160" fill="#FFE2B9"/>
+  <rect x="58" y="42" width="1084" height="636" rx="28" fill="white"/>
+  <rect x="94" y="84" width="430" height="50" rx="25" fill="#DFF1EC"/>
+  <text x="112" y="116" fill="#157C6B" font-family="Arial, sans-serif" font-size="22" letter-spacing="4">QINGCHUANG WEATHER</text>
+  <text x="94" y="232" fill="#11233C" font-family="Arial, sans-serif" font-size="74" font-weight="700">抬头看天色，</text>
+  <text x="94" y="316" fill="#11233C" font-family="Arial, sans-serif" font-size="74" font-weight="700">也能顺手看天气</text>
+  <text x="96" y="392" fill="#607388" font-family="Arial, sans-serif" font-size="28">Python 后端代理 + 自动定位 + 搜索查询 + 手动选择</text>
+  <rect x="96" y="448" width="180" height="70" rx="35" fill="#0F7B6C"/>
+  <text x="132" y="491" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">定位当前城市</text>
+  <rect x="296" y="448" width="144" height="70" rx="35" fill="#F8FBFC" stroke="#D7E1E8" stroke-width="2"/>
+  <text x="336" y="491" fill="#11233C" font-family="Arial, sans-serif" font-size="28" font-weight="700">刷新天气</text>
+  <text x="96" y="572" fill="#6C7F91" font-family="Arial, sans-serif" font-size="30">朝阳区天气已更新。</text>
+  <rect x="726" y="86" width="352" height="548" rx="28" fill="url(#card)"/>
+  <rect x="760" y="118" width="118" height="48" rx="24" fill="rgba(255,255,255,0.18)"/>
+  <text x="788" y="149" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="700">手动选择</text>
+  <text x="760" y="250" fill="white" font-family="Arial, sans-serif" font-size="64" font-weight="700">朝阳区</text>
+  <text x="760" y="318" fill="#C8D8E8" font-family="Arial, sans-serif" font-size="26">手动选择 · 实时天气</text>
+  <text x="760" y="468" fill="white" font-family="Arial, sans-serif" font-size="146" font-weight="700">19</text>
+  <text x="980" y="430" fill="white" font-family="Arial, sans-serif" font-size="56">°C</text>
+  <text x="760" y="546" fill="white" font-family="Arial, sans-serif" font-size="42" font-weight="700">晴间多云</text>
+  <rect x="760" y="572" width="136" height="88" rx="18" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.1)"/>
+  <rect x="910" y="572" width="136" height="88" rx="18" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="780" y="608" fill="#DCE8F4" font-family="Arial, sans-serif" font-size="24">湿度</text>
+  <text x="780" y="648" fill="white" font-family="Arial, sans-serif" font-size="34" font-weight="700">55%</text>
+  <text x="930" y="608" fill="#DCE8F4" font-family="Arial, sans-serif" font-size="24">风向</text>
+  <text x="930" y="648" fill="white" font-family="Arial, sans-serif" font-size="34" font-weight="700">南</text>
+  <defs>
+    <linearGradient id="card" x1="726" y1="86" x2="1112" y2="642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#203D5B"/>
+      <stop offset="1" stop-color="#3B7E94"/>
+    </linearGradient>
+  </defs>
+</svg>
