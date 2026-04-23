@@ -1,5 +1,11 @@
 # 晴窗天气
 
+![Python](https://img.shields.io/badge/Python-3-blue?style=flat-square)
+![Local First](https://img.shields.io/badge/Local-First-0F7B6C?style=flat-square)
+![Auto Location](https://img.shields.io/badge/Auto-Location-2D8CFF?style=flat-square)
+![Weather Proxy](https://img.shields.io/badge/API-Backend%20Proxy-173553?style=flat-square)
+![Fallback Ready](https://img.shields.io/badge/Fallback-Ready-158A73?style=flat-square)
+
 一个基于 Python 后端的天气查询小应用，支持：
 
 - 自动定位当前城市并显示实时天气

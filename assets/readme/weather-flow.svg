@@ -1,38 +1,38 @@
-<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="660" rx="32" fill="#F8FBFD"/>
-  <text x="74" y="98" fill="#162641" font-family="Arial, sans-serif" font-size="54" font-weight="700">请求流程</text>
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="32" fill="#F8FBFD"/>
+  <text x="74" y="98" fill="#162641" font-family="Arial, sans-serif" font-size="56" font-weight="700">请求流程</text>
   <text x="74" y="142" fill="#70839A" font-family="Arial, sans-serif" font-size="24">前端、后端和天气数据源之间的关系。</text>
 
-  <rect x="90" y="224" width="250" height="150" rx="28" fill="#FFFFFF" stroke="#DCE6EE"/>
-  <text x="152" y="292" fill="#162641" font-family="Arial, sans-serif" font-size="34" font-weight="700">前端页面</text>
-  <text x="146" y="334" fill="#6B7E93" font-family="Arial, sans-serif" font-size="22">index.html / script.js</text>
+  <rect x="92" y="246" width="252" height="176" rx="28" fill="#FFFFFF" stroke="#DCE6EE"/>
+  <text x="136" y="328" fill="#162641" font-family="Arial, sans-serif" font-size="34" font-weight="700">前端页面</text>
+  <text x="132" y="374" fill="#6B7E93" font-family="Arial, sans-serif" font-size="24">index.html / script.js</text>
 
-  <rect x="474" y="184" width="250" height="230" rx="28" fill="#13324D"/>
-  <text x="544" y="262" fill="white" font-family="Arial, sans-serif" font-size="34" font-weight="700">Python 后端</text>
-  <text x="548" y="306" fill="#D0DDEA" font-family="Arial, sans-serif" font-size="22">app.py</text>
-  <text x="518" y="354" fill="#D0DDEA" font-family="Arial, sans-serif" font-size="22">- 静态文件服务</text>
-  <text x="518" y="386" fill="#D0DDEA" font-family="Arial, sans-serif" font-size="22">- 天气代理</text>
-  <text x="518" y="418" fill="#D0DDEA" font-family="Arial, sans-serif" font-size="22">- 定位反查</text>
+  <rect x="456" y="206" width="304" height="256" rx="32" fill="#15324E"/>
+  <text x="500" y="302" fill="white" font-family="Arial, sans-serif" font-size="34" font-weight="700">Python 后端</text>
+  <text x="546" y="350" fill="#D1DDEA" font-family="Arial, sans-serif" font-size="24">app.py</text>
+  <text x="520" y="404" fill="#D1DDEA" font-family="Arial, sans-serif" font-size="24">- 静态文件服务</text>
+  <text x="520" y="440" fill="#D1DDEA" font-family="Arial, sans-serif" font-size="24">- 天气代理</text>
+  <text x="520" y="476" fill="#D1DDEA" font-family="Arial, sans-serif" font-size="24">- 定位反查</text>
 
-  <rect x="858" y="108" width="250" height="150" rx="28" fill="#FFFFFF" stroke="#DCE6EE"/>
-  <text x="948" y="176" fill="#162641" font-family="Arial, sans-serif" font-size="34" font-weight="700">高德天气</text>
-  <text x="924" y="218" fill="#6B7E93" font-family="Arial, sans-serif" font-size="22">优先使用的主数据源</text>
+  <rect x="856" y="150" width="260" height="164" rx="28" fill="#FFFFFF" stroke="#DCE6EE"/>
+  <text x="904" y="232" fill="#162641" font-family="Arial, sans-serif" font-size="34" font-weight="700">高德天气</text>
+  <text x="900" y="280" fill="#6B7E93" font-family="Arial, sans-serif" font-size="24">优先使用的主数据源</text>
 
-  <rect x="858" y="330" width="250" height="150" rx="28" fill="#EAF8F4" stroke="#C9EBDD"/>
-  <text x="912" y="398" fill="#0F7B6C" font-family="Arial, sans-serif" font-size="34" font-weight="700">备用服务</text>
-  <text x="900" y="440" fill="#46796D" font-family="Arial, sans-serif" font-size="22">Open-Meteo + OSM</text>
+  <rect x="856" y="402" width="260" height="176" rx="28" fill="#EAF8F4" stroke="#C9EBDD"/>
+  <text x="922" y="484" fill="#0F7B6C" font-family="Arial, sans-serif" font-size="34" font-weight="700">备用服务</text>
+  <text x="892" y="534" fill="#46796D" font-family="Arial, sans-serif" font-size="24">Open-Meteo + OSM</text>
 
-  <path d="M340 298H454" stroke="#8AA1B7" stroke-width="8" stroke-linecap="round"/>
-  <path d="M434 278L474 298L434 318" fill="#8AA1B7"/>
-  <path d="M724 244H838" stroke="#8AA1B7" stroke-width="8" stroke-linecap="round"/>
-  <path d="M818 224L858 244L818 264" fill="#8AA1B7"/>
-  <path d="M724 404H838" stroke="#33A585" stroke-width="8" stroke-linecap="round"/>
-  <path d="M818 384L858 404L818 424" fill="#33A585"/>
+  <path d="M344 334H430" stroke="#8AA1B7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M410 314L450 334L410 354" fill="#8AA1B7"/>
+  <text x="360" y="312" fill="#6B7E93" font-family="Arial, sans-serif" font-size="22">/api/*</text>
 
-  <text x="364" y="282" fill="#6B7E93" font-family="Arial, sans-serif" font-size="20">/api/*</text>
-  <text x="742" y="228" fill="#6B7E93" font-family="Arial, sans-serif" font-size="20">优先请求</text>
-  <text x="742" y="388" fill="#2F8F76" font-family="Arial, sans-serif" font-size="20">失败自动回退</text>
+  <path d="M760 276H836" stroke="#8AA1B7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M816 256L856 276L816 296" fill="#8AA1B7"/>
+  <text x="776" y="250" fill="#6B7E93" font-family="Arial, sans-serif" font-size="22">优先请求</text>
 
-  <rect x="90" y="496" width="1018" height="88" rx="24" fill="#FFFFFF" stroke="#DCE6EE"/>
-  <text x="126" y="550" fill="#516478" font-family="Arial, sans-serif" font-size="24">效果：浏览器看起来只是在访问本地天气站点，API Key 保留在后端，本地运行和后续部署都更安全。</text>
-</svg>
+  <path d="M760 490H836" stroke="#2FA083" stroke-width="8" stroke-linecap="round"/>
+  <path d="M816 470L856 490L816 510" fill="#2FA083"/>
+  <text x="776" y="464" fill="#2F8F76" font-family="Arial, sans-serif" font-size="22">失败自动回退</text>
+
+  <rect x="92" y="622" width="1024" height="88" rx="24" fill="#FFFFFF" stroke="#DCE6EE"/>
+  <text x="128" y="676" fill="#516478" font-family="Arial, sans-serif" font-size="26">效果：浏览器看起来只是在访问本地天气站点，API Key 保留在后端，本地运行和后续部署都更安全。</text>
